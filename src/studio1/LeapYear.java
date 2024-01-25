@@ -11,7 +11,7 @@ public class LeapYear {
 		System.out.println("input year");
 		int y1 = in.nextInt();
 		boolean  Leapyear = (y1 %4 == 0) && (y1 %100 != 0) || y1 %400 ==0;
-		System.out.println (y1 + "is a leap year; " + Leapyear);
+		System.out.println (y1 + " is a leap year; " + Leapyear);
 		
 		
 	}
